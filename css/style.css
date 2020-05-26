@@ -1,0 +1,21 @@
+.top-panel {
+    padding-top: 32px;
+    padding-bottom : 32px;
+}
+
+.pub-item {
+    padding-bottom: 24px;
+}
+
+.pub-title {
+    font-size: large;
+    padding-bottom: 16px;
+}
+
+.pub-authors {
+    padding-bottom: 16px;
+}
+
+.pub-conferece {
+
+}

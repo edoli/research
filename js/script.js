@@ -1,7 +1,16 @@
 function publicationTag(thumbnail, title, authors, conference, materials) {
+    let getThumbnail = () => {
+        let ext = thumbnail.slice(thumbnail.length - 3, thumbnail.length).toLowerCase();
+        if (ext == 'mp4') {
+            return `<video class="pub-thumbnail img-fluid" autoplay loop muted playsinline src="images/${thumbnail}"></video>`;
+        } else {
+            return `<img class="pub-thumbnail img-fluid" src="images/${thumbnail}" alt="">`;
+        }
+    }
+
     return `
     <div class="d-flex flex-column flex-md-row pub-item">
-        <img class="pub-thumbnail img-fluid" src="images/${thumbnail}" alt="">
+        ${getThumbnail()}
         
         <div class="flex-fill d-flex flex-column pub-content">
         <div class="pub-title">${title}</div>

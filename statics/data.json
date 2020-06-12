@@ -1,0 +1,232 @@
+{
+    "publications": [
+        {
+            "thumbnail": "pub_thumb11.jpg",
+            "title": "Single-shot Acquisition of Cylindrical Mesostructure Normals using Diffuse Illumination",
+            "authors": [
+                "Inseung Hwang",
+                "Daniel S. Jeon",
+                "Min H. Kim"
+            ],
+            "conference": "Proc. International Conference on Computer Vision Theory and Applications (VISAPP 2020)",
+            "materials": [
+                {
+                    "name": "PDF",
+                    "path": "anglestereo-camera-ready.pdf"
+                }
+            ]
+        },
+        
+        {
+            "thumbnail": "pub_thumb10.gif",
+            "title": "Fast Omnidirectional Depth Densification",
+            "authors": [
+                "Hyeonjoong Jang",
+                "Daniel S. Jeon",
+                "Min H. Kim"
+            ],
+            "conference": "Proc. International Symposium on Visual Computing (ISVC 2019, Oral)",
+            "materials": [
+                {
+                    "name": "PDF",
+                    "path": "ISVC2019_sphericalstereo_lncs.pdf"
+                }
+            ]
+        },
+        
+        {
+            "thumbnail": "pub_thumb09.jpg",
+            "title": "Compact Snapshot Hyperspectral Imaging with Diffracted Rotation",
+            "authors": [
+                "Daniel S. Jeon",
+                "Seung-Hwan Baek",
+                "Shinyoung Yi",
+                "Qiang Fu",
+                "Xiong Dun",
+                "Wolfgang Heidrich",
+                "Min H. Kim"
+            ],
+            "conference": "ACM Transactions on Graphics (TOG), presented at SIGGRAPH 2019",
+            "materials": [
+                {
+                    "name": "PDF",
+                    "path": "spectraldoe_main_author_s.pdf"
+                },
+                {
+                    "name": "Supp.",
+                    "path": "supplementary_final.pdf"
+                }
+            ]
+        },
+        
+        {
+            "thumbnail": "pub_thumb08.jpg",
+            "title": "Simultaneous Acquisition of Polarimetric SVBRDF and Normals",
+            "authors": [
+                "Seung-Hwan Baek",
+                "Daniel S. Jeon",
+                "Xin Tong",
+                "Min H. Kim"
+            ],
+            "conference": "ACM Transactions on Graphics (TOG), presented at SIGGRAPH Asia 2018",
+            "materials": [
+                {
+                    "name": "PDF",
+                    "path": "polarization_author.pdf"
+                },
+                {
+                    "name": "Supp.#1",
+                    "path": "polarization_supple_1.pdf"
+                },
+                {
+                    "name": "Supp.#2",
+                    "path": "polarization_supple_2.pdf"
+                },
+                {
+                    "name": "Video",
+                    "path": "polarization_video.mp4"
+                }
+            ]
+        },
+        
+        {
+            "thumbnail": "pub_thumb07.jpg",
+            "title": "Practical Multiple Scattering for Rough Surfaces",
+            "authors": [
+                "Joo Ho Lee",
+                "Adrian Jarabo",
+                "Daniel S. Jeon",
+                "Diego Gutierrez",
+                "Min H. Kim"
+            ],
+            "conference": "ACM Transactions on Graphics (TOG), presented at SIGGRAPH Asia 2018",
+            "materials": [
+                {
+                    "name": "PDF",
+                    "path": "vscattering_author.pdf"
+                },
+                {
+                    "name": "Supp.",
+                    "path": "vscattering_supple.pdf"
+                }
+            ]
+        },
+        
+        {
+            "thumbnail": "pub_thumb06.jpg",
+            "title": "Xenos Peckii Vision Inspires an Ultrathin Digital Camera",
+            "authors": [
+                "Dongmin Keum", 
+                "Kyung-Won Jang",
+                "Daniel S. Jeon",
+                "Charles S. Hwang",
+                "Elke K. Buschbeck",
+                "Min H. Kim",
+                "Ki-Hun Jeong"
+            ],
+            "conference": "Nature Publishing Group (NPG), Light: Science & Applications",
+            "materials": [
+            ]
+        },
+        
+        {
+            "thumbnail": "pub_thumb05.jpg",
+            "title": "Enhancing the Spatial Resolution of Stereo Images using a Parallax Prior",
+            "authors": [
+                "Daniel S. Jeon",
+                "Seung-Hwan Baek",
+                "Inchang Choi",
+                "Min H. Kim"
+            ],
+            "conference": "Proc. IEEE Computer Vision and Pattern Recognition (CVPR 2018)",
+            "materials": [
+                {
+                    "name": "PDF",
+                    "path": "CVPR2018_Stereo_SR.pdf"
+                },
+                {
+                    "name": "Supp.",
+                    "path": "CVPR2018_Stereo_SR_supplemental.pdf"
+                }
+            ]
+        },
+        
+        {
+            "thumbnail": "pub_thumb04.jpg",
+            "title": "High-Quality Hyperspectral Reconstruction Using a Spectral Prior",
+            "authors": [
+                "Inchang Choi",
+                "Daniel S. Jeon",
+                "Giljoo Nam", 
+                "Diego Gutierrez",
+                "Min H. Kim"
+            ],
+            "conference": "ACM Transactions on Graphics (TOG), presented at SIGGRAPH Asia 2017",
+            "materials": [
+                {
+                    "name": "PDF",
+                    "path": "deep_cassi_main.pdf"
+                },
+                {
+                    "name": "Supp.",
+                    "path": "deep_cassi_supplemental.pdf"
+                }
+            ]
+        },
+        
+        {
+            "thumbnail": "pub_thumb03.jpg",
+            "title": "Multisampling Compressive Video Spectroscopy",
+            "authors": [
+                "Daniel S. Jeon",
+                "Inchang Choi",
+                "Min H. Kim"
+            ],
+            "conference": "Computer Graphics Forum (CGF), presented at EUROGRAPHICS 2016",
+            "materials": [
+                {
+                    "name": "PDF",
+                    "path": "dispersemain_final-s.pdf"
+                },
+                {
+                    "name": "Presentation",
+                    "path": "Eurographics_2016_presentation.pdf"
+                },
+                {
+                    "name": "Video",
+                    "path": "supplementalvideo.mp4"
+                }
+            ]
+        },
+        
+        {
+            "thumbnail": "pub_thumb02.jpg",
+            "title": "Ultrathin Camera Inspired by Visual System Of Xenos Peckii",
+            "authors": [
+                "Dongmin Keum", 
+                "Daniel S. Jeon", 
+                "Charles S. H. Hwang", 
+                "Elke K. Buschbeck", 
+                "Min H. Kim", 
+                "Ki-Hun Jeong"
+            ],
+            "conference": "Proc. IEEE International Conference on Micro Electro Mechanical Systems (MEMS 2016)",
+            "materials": [
+            ]
+        },
+        
+        {
+            "thumbnail": "pub_thumb01.jpg",
+            "title": "Artificial Compound Eye Inspired by Imaging Principle Of Xenos Peckii",
+            "authors": [
+                "Dongmin Keum", 
+                "Daniel S. Jeon", 
+                "Min H. Kim", 
+                "Ki-Hun Jeong"
+            ],
+            "conference": "Proc. IEEE International Conference on Solid-State Sensors, Actuators and Microsystems (TRANSDUCERS 2015)",
+            "materials": [
+            ]
+        }
+    ]
+}

@@ -1,21 +1,56 @@
+body {
+  background-color: #fafafa;
+}
+
 .top-panel {
-    padding-top: 32px;
-    padding-bottom : 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.title-publicaitons {
+  margin-bottom: 16px;
 }
 
 .pub-item {
-    padding-bottom: 24px;
+  border-radius: 16px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 1px 8px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 1px 8px 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 32px;
+}
+
+.pub-thumbnail {
+  border-radius: 16px 16px 0 0;
+}
+
+@media (min-width: 576px) {
+  .pub-thumbnail {
+    width: 320px;
+    border-radius: 16px 0 0 16px;
+  }
+}
+
+.pub-content {
+  margin-left: 16px;
+  margin-top: 8px;
+  margin-bottom: 12px;
 }
 
 .pub-title {
-    font-size: large;
-    padding-bottom: 16px;
+  font-size: large;
+  font-weight: 600;
+  margin-bottom: 16px;
 }
 
 .pub-authors {
-    padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 
-.pub-conferece {
-
+.pub-conference {
+  margin-bottom: 16px;
 }
+
+.pub-material {
+  margin-right: 8px;
+}
+/*# sourceMappingURL=style.css.map */

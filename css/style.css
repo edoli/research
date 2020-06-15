@@ -2,6 +2,34 @@ body {
   background-color: #fafafa;
 }
 
+@media (min-width: 576px) {
+  .top-img {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+}
+
+@media (min-width: 576px) {
+  .top-content {
+    -webkit-box-flex: 3;
+        -ms-flex: 3;
+            flex: 3;
+    padding-left: 16px;
+  }
+}
+
+.img-thumbnail {
+  padding: 0;
+  border: None;
+}
+
+@media (max-width: 576px) {
+  .img-thumbnail {
+    margin-bottom: 12px;
+  }
+}
+
 .top-panel {
   padding-top: 32px;
   padding-bottom: 32px;

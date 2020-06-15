@@ -7,6 +7,27 @@ body {
     background-color: #fafafa;
 }
 
+.top-img {
+    @media (min-width: $breakpoint-sm) {
+        flex: 1;
+    }
+}
+
+.top-content {
+    @media (min-width: $breakpoint-sm) {
+        flex: 3;
+        padding-left: 16px;
+    }
+}
+
+.img-thumbnail {
+    padding: 0;
+    border: None;
+    @media (max-width: $breakpoint-sm) {
+        margin-bottom: 12px;
+    }
+}
+
 .top-panel {
     padding-top: 32px;
     padding-bottom: 32px;

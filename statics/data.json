@@ -126,6 +126,10 @@
             ],
             "conference": "Nature Publishing Group (NPG), Light: Science & Applications",
             "materials": [
+                {
+                    "name": "Link",
+                    "path": "https://www.nature.com/articles/s41377-018-0081-2"
+                }
             ]
         },
         
@@ -212,6 +216,10 @@
             ],
             "conference": "Proc. IEEE International Conference on Micro Electro Mechanical Systems (MEMS 2016)",
             "materials": [
+                {
+                    "name": "Link",
+                    "path": "https://ieeexplore.ieee.org/document/7421706"
+                }
             ]
         },
         
@@ -226,6 +234,10 @@
             ],
             "conference": "Proc. IEEE International Conference on Solid-State Sensors, Actuators and Microsystems (TRANSDUCERS 2015)",
             "materials": [
+                {
+                    "name": "Link",
+                    "path": "https://ieeexplore.ieee.org/document/7180946"
+                }
             ]
         }
     ]

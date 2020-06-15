@@ -26,16 +26,37 @@ function publicationTag(thumbnail, title, authors, conference, materials) {
         <div>
         ${materials.map((item) => {
             let icon = '';
+            let link = '';
             let path = item.path;
-            let ext = path.slice(path.length - 3, path.length).toLowerCase();
-            if (ext == 'pdf') {
-                icon = '<i class="fas fa-file-pdf"></i>';
-            } else if (ext == 'zip') {
-                icon = '<i class="fas fa-file-archive"></i>';
-            } else if (ext == 'mp4') {
-                icon = '<i class="fas fa-file-video"></i>';
+            let ext = path.split('.').pop().toLowerCase();
+            let isHttp = path.slice(0, 4).toLowerCase() === 'http';
+            let isCode = false;
+            if (isHttp) {
+                icon = '<i class="fas fa-link"></i>';
+                link = `${item.path}`;
+            } else if (isCode) {
+                icon = '<i class="fas fa-file-code"></i>';
+            } else  {
+                if (ext == 'pdf') {
+                    icon = '<i class="fas fa-file-pdf"></i>';
+                } else if (ext == 'zip') {
+                    icon = '<i class="fas fa-file-archive"></i>';
+                } else if (ext == 'mp4' || ext == 'avi' || ext == 'mkv' || ext == 'mov') {
+                    icon = '<i class="fas fa-file-video"></i>';
+                }  else if (ext == 'mp3' || ext == 'ogg' || ext == 'wav' || ext == 'mp4a') {
+                    icon = '<i class="fas fa-file-audio"></i>';
+                } else if (ext == 'ppt' || ext == 'pptx') {
+                    icon = '<i class="fas fa-file-powerpoint"></i>';
+                }  else if (ext == 'xls' || ext == 'xlsx') {
+                    icon = '<i class="fas fa-file-excel"></i>';
+                }  else if (ext == 'doc' || ext == 'docx') {
+                    icon = '<i class="fas fa-file-word"></i>';
+                } else {
+                    icon = '<i class="fas fa-file-alt"></i>';
+                }
+                link = `statics/${item.path}`;
             }
-            return `<a href="statics/${item.path}" class="btn btn-primary pub-material">${icon} ${item.name}</a>`;
+            return `<a href="${link}" class="btn btn-primary pub-material">${icon} ${item.name}</a>`;
         }).join('')}
         </div>
         </div>

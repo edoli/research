@@ -1,6 +1,114 @@
 {
     "publications": [
         {
+            "thumbnail": "pub_thumb18.jpg",
+            "title": "Sparse Ellipsometry: Portable Acquisition of Polarimetric SVBRDF and Shape with Unstructured Flash Photography",
+            "authors": [
+                "Inseung Hwang", 
+                "Daniel S. Jeon", 
+                "Adolfo Muñoz", 
+                "Diego Gutierrez", 
+                "Xin Tong",
+                "Min H. Kim"
+            ],
+            "conference": "ACM Transactions on Graphics (TOG), presented at SIGGRAPH 2022",
+            "materials": [
+            ]
+        },
+        {
+            "thumbnail": "pub_thumb17.jpg",
+            "title": "Modelling Surround-aware Contrast Sensitivity for HDR Displays",
+            "authors": [
+                "Shinyoung Yi", 
+                "Daniel S. Jeon", 
+                "Ana Serrano", 
+                "Se-Yoon Jeong", 
+                "Hui-Yong Kim",
+                "Diego Gutierrez", 
+                "Min H. Kim"
+            ],
+            "conference": "Computer Graphics Forum (CGF)",
+            "materials": [
+                {
+                    "name": "PDF",
+                    "path": "hdr_display_author.pdf"
+                }
+            ]
+        },
+        {
+            "thumbnail": "pub_thumb16.jpg",
+            "title": "Single-shot Hyperspectral-Depth Imaging with Learned Diffractive Optics",
+            "authors": [
+                "Seung-Hwan Baek", 
+                "Hayato Ikoma", 
+                "Daniel S. Jeon", 
+                "Yuqi Li", 
+                "Wolfgang Heidrich", 
+                "Gordon Wetzstein", 
+                "Min H. Kim"
+            ],
+            "conference": "Proc. IEEE International Conference on Computer Vision (ICCV) 2021",
+            "materials": [
+                {
+                    "name": "PDF",
+                    "path": "learned_diffractive_author.pdf"
+                }
+            ]
+        },
+        {
+            "thumbnail": "pub_thumb14.jpg",
+            "title": "Real-Time Sphere Sweeping Stereo from Multiview Fisheye Images",
+            "authors": [
+                "Andreas Meuleman", 
+                "Hyeonjoong Jang", 
+                "Daniel S. Jeon", 
+                "Min H. Kim"
+            ],
+            "conference": "Proc. IEEE Computer Vision and Pattern Recognition (CVPR 2021, Oral)",
+            "materials": [
+                {
+                    "name": "PDF",
+                    "path": "multiview_fisheye_author.pdf"
+                }
+            ]
+        },
+        {
+            "thumbnail": "pub_thumb13.jpg",
+            "title": "High-Quality Stereo Image Restoration from Double Refraction",
+            "authors": [
+                "Hakyeong Kim", 
+                "Andreas Meuleman", 
+                "Daniel S. Jeon", 
+                "Min H. Kim"
+            ],
+            "conference": "Proc. IEEE Computer Vision and Pattern Recognition (CVPR 2021)",
+            "materials": [
+                {
+                    "name": "PDF",
+                    "path": "double_refraction_author.pdf"
+                }
+            ]
+        },
+        {
+            "thumbnail": "pub_thumb12.jpg",
+            "title": "View-dependent Scene Appearance Synthesis using Inverse Rendering from Light Fields",
+            "authors": [
+                "Dahyun Kang", 
+                "Daniel S. Jeon", 
+                "Hakyeong Kim", 
+                "Hyeonjoong Jang", 
+                "Min H. Kim"
+            ],
+            "conference": "Proc. IEEE International Conference on Computational Photography (ICCP 2021)",
+            "materials": [
+                {
+                    "name": "PDF",
+                    "path": "light_field_synthesis_author.pdf"
+                }
+            ]
+        },
+
+        {
             "thumbnail": "pub_thumb11.jpg",
             "title": "Single-shot Acquisition of Cylindrical Mesostructure Normals using Diffuse Illumination",
             "authors": [

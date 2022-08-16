@@ -45,11 +45,35 @@ body {
 }
 
 .pub-thumbnail {
-    border-radius: 16px 16px 0 0;
+    position: relative;
     @media (min-width: $breakpoint-sm) {
         width: 320px;
+        min-width: 320px;
+    }
+}
+
+.pub-thumbnail-content {
+    display: block;
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+    @media (min-width: $breakpoint-sm) {
         border-radius: 16px 0 0 16px;
     }
+}
+
+.pub-thumbnail .thumbnail-hover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .2s;
+}
+
+.pub-thumbnail:hover .thumbnail-hover {
+  opacity: 1;
 }
 
 .pub-content {

@@ -1,16 +1,24 @@
-function publicationTag(thumbnail, title, authors, conference, materials) {
-    let getThumbnail = () => {
-        let ext = thumbnail.slice(thumbnail.length - 3, thumbnail.length).toLowerCase();
-        if (ext == 'mp4') {
-            return `<video class="pub-thumbnail img-fluid" autoplay loop muted playsinline src="images/${thumbnail}"></video>`;
-        } else {
-            return `<img class="pub-thumbnail img-fluid" src="images/${thumbnail}" alt="">`;
-        }
-    }
 
+let getThumbnail = (thumbnail, isHover) => {
+    let ext = thumbnail.slice(thumbnail.length - 3, thumbnail.length).toLowerCase();
+    let className = "pub-thumbnail-content";
+    if (isHover) {
+        className += " thumbnail-hover"
+    }
+    if (ext == 'mp4') {
+        return `<video class="${className}" loop muted playsinline onmouseover="this.play()" onmouseout="this.pause();" src="images/${thumbnail}"></video>`;
+    } else {
+        return `<img class="${className}" src="images/${thumbnail}" alt="">`;
+    }
+}
+
+function publicationTag(thumbnail, thumbnailHover, title, authors, conference, materials) {
     return `
     <div class="d-flex flex-column flex-md-row pub-item">
-        ${getThumbnail()}
+        <div class="pub-thumbnail">
+            ${thumbnailHover !== undefined ? getThumbnail(thumbnailHover, true) : ""}
+            ${getThumbnail(thumbnail, false)}
+        </div>
         
         <div class="flex-fill d-flex flex-column pub-content">
             <div class="pub-title">${title}</div>
@@ -68,8 +76,8 @@ $.getJSON('statics/data.json', (data) => {
     let publicationsElem = $('.publications');
 
     data.publications.forEach((publication) => {
-        let {thumbnail, title, authors, conference, materials} = publication;
-        let tag = publicationTag(thumbnail, title, authors, conference, materials);
+        let {thumbnail, thumbnailHover, title, authors, conference, materials} = publication;
+        let tag = publicationTag(thumbnail, thumbnailHover, title, authors, conference, materials);
         publicationsElem.append(tag);
     });
 });

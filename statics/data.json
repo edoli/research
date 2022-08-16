@@ -2,6 +2,7 @@
     "publications": [
         {
             "thumbnail": "pub_thumb18.jpg",
+            "thumbnailHover": "pub_thumb18_hover.mp4",
             "title": "Sparse Ellipsometry: Portable Acquisition of Polarimetric SVBRDF and Shape with Unstructured Flash Photography",
             "authors": [
                 "Inseung Hwang", 
@@ -16,7 +17,7 @@
             ]
         },
         {
-            "thumbnail": "pub_thumb17.jpg",
+            "thumbnail": "pub_thumb17.mp4",
             "title": "Modelling Surround-aware Contrast Sensitivity for HDR Displays",
             "authors": [
                 "Shinyoung Yi", 
@@ -57,6 +58,7 @@
         },
         {
             "thumbnail": "pub_thumb14.jpg",
+            "thumbnailHover": "pub_thumb14_hover.mp4",
             "title": "Real-Time Sphere Sweeping Stereo from Multiview Fisheye Images",
             "authors": [
                 "Andreas Meuleman", 
@@ -74,6 +76,7 @@
         },
         {
             "thumbnail": "pub_thumb13.jpg",
+            "thumbnailHover": "pub_thumb13_hover.jpg",
             "title": "High-Quality Stereo Image Restoration from Double Refraction",
             "authors": [
                 "Hakyeong Kim", 
@@ -91,6 +94,7 @@
         },
         {
             "thumbnail": "pub_thumb12.jpg",
+            "thumbnailHover": "pub_thumb12_hover.mp4",
             "title": "View-dependent Scene Appearance Synthesis using Inverse Rendering from Light Fields",
             "authors": [
                 "Dahyun Kang", 
@@ -110,6 +114,7 @@
 
         {
             "thumbnail": "pub_thumb11.jpg",
+            "thumbnailHover": "pub_thumb11_hover.jpg",
             "title": "Single-shot Acquisition of Cylindrical Mesostructure Normals using Diffuse Illumination",
             "authors": [
                 "Inseung Hwang",
@@ -144,6 +149,7 @@
         
         {
             "thumbnail": "pub_thumb09.jpg",
+            "thumbnailHover": "pub_thumb09_hover.mp4",
             "title": "Compact Snapshot Hyperspectral Imaging with Diffracted Rotation",
             "authors": [
                 "Daniel S. Jeon",
@@ -169,6 +175,7 @@
         
         {
             "thumbnail": "pub_thumb08.jpg",
+            "thumbnailHover": "pub_thumb08_hover.mp4",
             "title": "Simultaneous Acquisition of Polarimetric SVBRDF and Normals",
             "authors": [
                 "Seung-Hwan Baek",

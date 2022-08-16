@@ -4,17 +4,13 @@ body {
 
 @media (min-width: 576px) {
   .top-img {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    flex: 1;
   }
 }
 
 @media (min-width: 576px) {
   .top-content {
-    -webkit-box-flex: 3;
-        -ms-flex: 3;
-            flex: 3;
+    flex: 3;
     padding-left: 16px;
   }
 }
@@ -23,7 +19,6 @@ body {
   padding: 0;
   border: None;
 }
-
 @media (max-width: 576px) {
   .img-thumbnail {
     margin-bottom: 12px;
@@ -42,20 +37,45 @@ body {
 .pub-item {
   border-radius: 16px;
   background-color: #ffffff;
-  -webkit-box-shadow: 0px 1px 8px 0 rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 1px 8px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 1px 8px 0 rgba(0, 0, 0, 0.1);
   margin-bottom: 32px;
 }
 
 .pub-thumbnail {
-  border-radius: 16px 16px 0 0;
+  position: relative;
 }
-
 @media (min-width: 576px) {
   .pub-thumbnail {
     width: 320px;
+    min-width: 320px;
+  }
+}
+
+.pub-thumbnail-content {
+  display: block;
+  width: 100%;
+  border-radius: 16px 16px 0 0;
+}
+@media (min-width: 576px) {
+  .pub-thumbnail-content {
     border-radius: 16px 0 0 16px;
   }
+}
+
+.pub-thumbnail .thumbnail-hover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  -o-object-fit: contain;
+     object-fit: contain;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.pub-thumbnail:hover .thumbnail-hover {
+  opacity: 1;
 }
 
 .pub-content {
@@ -82,5 +102,4 @@ body {
 .pub-material {
   margin-top: 8px;
   margin-right: 8px;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

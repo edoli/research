@@ -40,8 +40,12 @@ function publicationTag(thumbnail, thumbnailHover, title, authors, conference, m
                     let isHttp = path.slice(0, 4).toLowerCase() === 'http';
                     let isCode = false;
                     if (isHttp) {
-                        icon = '<i class="fas fa-link"></i>';
-                        link = `${item.path}`;
+                        if (path.includes("github.com")) {
+                            icon = '<i class="fa-brands fa-github"></i>';
+                        } else {
+                            icon = '<i class="fas fa-link"></i>';
+                        }
+                        link = `${path}`;
                     } else if (isCode) {
                         icon = '<i class="fas fa-file-code"></i>';
                     } else  {

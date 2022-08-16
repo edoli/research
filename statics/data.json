@@ -14,6 +14,18 @@
             ],
             "conference": "ACM Transactions on Graphics (TOG), presented at SIGGRAPH 2022",
             "materials": [
+                {
+                    "name": "Paper",
+                    "path": "sparse_ellipsometry_main.pdf"
+                },
+                {
+                    "name": "Supp.",
+                    "path": "sparse_ellipsometry_supple.pdf"
+                },
+                {
+                    "name": "Code",
+                    "path": "https://github.com/KAIST-VCLAB/SparseEllipsometry"
+                }
             ]
         },
         {
@@ -31,8 +43,16 @@
             "conference": "Computer Graphics Forum (CGF)",
             "materials": [
                 {
-                    "name": "PDF",
-                    "path": "hdr_display_author.pdf"
+                    "name": "Paper",
+                    "path": "hdr_display_main.pdf"
+                },
+                {
+                    "name": "Supp.",
+                    "path": "hdr_display_supple.pdf"
+                },
+                {
+                    "name": "Code",
+                    "path": "https://github.com/KAIST-VCLAB/hdr-sa-csf"
                 }
             ]
         },
@@ -51,8 +71,16 @@
             "conference": "Proc. IEEE International Conference on Computer Vision (ICCV) 2021",
             "materials": [
                 {
-                    "name": "PDF",
-                    "path": "learned_diffractive_author.pdf"
+                    "name": "Paper",
+                    "path": "learned_diffractive_main.pdf"
+                },
+                {
+                    "name": "Paper",
+                    "path": "learned_diffractive_supple.pdf"
+                },
+                {
+                    "name": "Dataset",
+                    "path": "http://vclab.kaist.ac.kr/iccv2021/dataset.html"
                 }
             ]
         },
@@ -69,8 +97,20 @@
             "conference": "Proc. IEEE Computer Vision and Pattern Recognition (CVPR 2021, Oral)",
             "materials": [
                 {
-                    "name": "PDF",
-                    "path": "multiview_fisheye_author.pdf"
+                    "name": "Paper",
+                    "path": "sphere_sweeping_main.pdf"
+                },
+                {
+                    "name": "Supp.",
+                    "path": "sphere_sweeping_supple.pdf"
+                },
+                {
+                    "name": "Video",
+                    "path": "sphere_sweeping_video.mp4"
+                },
+                {
+                    "name": "Code",
+                    "path": "https://github.com/KAIST-VCLAB/sphere-stereo"
                 }
             ]
         },
@@ -87,8 +127,16 @@
             "conference": "Proc. IEEE Computer Vision and Pattern Recognition (CVPR 2021)",
             "materials": [
                 {
-                    "name": "PDF",
-                    "path": "double_refraction_author.pdf"
+                    "name": "Paper",
+                    "path": "double_refraction_main.pdf"
+                },
+                {
+                    "name": "Video",
+                    "path": "double_refraction_video.mp4"
+                },
+                {
+                    "name": "Code",
+                    "path": "https://github.com/KAIST-VCLAB/cnnbiref"
                 }
             ]
         },
@@ -106,8 +154,12 @@
             "conference": "Proc. IEEE International Conference on Computational Photography (ICCP 2021)",
             "materials": [
                 {
-                    "name": "PDF",
-                    "path": "light_field_synthesis_author.pdf"
+                    "name": "Paper",
+                    "path": "light_field_synthesis_main.pdf"
+                },
+                {
+                    "name": "Supp.",
+                    "path": "light_field_synthesis_supple.pdf"
                 }
             ]
         },
@@ -124,8 +176,8 @@
             "conference": "Proc. International Conference on Computer Vision Theory and Applications (VISAPP 2020)",
             "materials": [
                 {
-                    "name": "PDF",
-                    "path": "anglestereo-camera-ready.pdf"
+                    "name": "Paper",
+                    "path": "cylindrical_normal_main.pdf"
                 }
             ]
         },
@@ -141,8 +193,8 @@
             "conference": "Proc. International Symposium on Visual Computing (ISVC 2019, Oral)",
             "materials": [
                 {
-                    "name": "PDF",
-                    "path": "ISVC2019_sphericalstereo_lncs.pdf"
+                    "name": "Paper",
+                    "path": "fast_omnidirectional_main.pdf"
                 }
             ]
         },
@@ -163,12 +215,12 @@
             "conference": "ACM Transactions on Graphics (TOG), presented at SIGGRAPH 2019",
             "materials": [
                 {
-                    "name": "PDF",
-                    "path": "spectraldoe_main_author_s.pdf"
+                    "name": "Paper",
+                    "path": "spectraldoe_main.pdf"
                 },
                 {
                     "name": "Supp.",
-                    "path": "supplementary_final.pdf"
+                    "path": "spectraldoe_supple.pdf"
                 }
             ]
         },
@@ -186,8 +238,8 @@
             "conference": "ACM Transactions on Graphics (TOG), presented at SIGGRAPH Asia 2018",
             "materials": [
                 {
-                    "name": "PDF",
-                    "path": "polarization_author.pdf"
+                    "name": "Paper",
+                    "path": "polarization_main.pdf"
                 },
                 {
                     "name": "Supp.#1",
@@ -217,8 +269,8 @@
             "conference": "ACM Transactions on Graphics (TOG), presented at SIGGRAPH Asia 2018",
             "materials": [
                 {
-                    "name": "PDF",
-                    "path": "vscattering_author.pdf"
+                    "name": "Paper",
+                    "path": "vscattering_main.pdf"
                 },
                 {
                     "name": "Supp.",
@@ -260,12 +312,12 @@
             "conference": "Proc. IEEE Computer Vision and Pattern Recognition (CVPR 2018)",
             "materials": [
                 {
-                    "name": "PDF",
-                    "path": "CVPR2018_Stereo_SR.pdf"
+                    "name": "Paper",
+                    "path": "stereo_sr_main.pdf"
                 },
                 {
                     "name": "Supp.",
-                    "path": "CVPR2018_Stereo_SR_supplemental.pdf"
+                    "path": "stereo_sr_supple.pdf"
                 }
             ]
         },
@@ -283,12 +335,20 @@
             "conference": "ACM Transactions on Graphics (TOG), presented at SIGGRAPH Asia 2017",
             "materials": [
                 {
-                    "name": "PDF",
+                    "name": "Paper",
                     "path": "deep_cassi_main.pdf"
                 },
                 {
                     "name": "Supp.",
-                    "path": "deep_cassi_supplemental.pdf"
+                    "path": "deep_cassi_supple.pdf"
+                },
+                {
+                    "name": "Dataset",
+                    "path": "http://vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset.html"
+                },
+                {
+                    "name": "Code",
+                    "path": "https://github.com/KAIST-VCLAB/deepcassi/"
                 }
             ]
         },
@@ -304,16 +364,16 @@
             "conference": "Computer Graphics Forum (CGF), presented at EUROGRAPHICS 2016",
             "materials": [
                 {
-                    "name": "PDF",
-                    "path": "dispersemain_final-s.pdf"
+                    "name": "Paper",
+                    "path": "multisampling_spectral_main.pdf"
                 },
                 {
                     "name": "Presentation",
-                    "path": "Eurographics_2016_presentation.pdf"
+                    "path": "multisampling_spectral_ppt.pdf"
                 },
                 {
                     "name": "Video",
-                    "path": "supplementalvideo.mp4"
+                    "path": "multisampling_spectral_video.mp4"
                 }
             ]
         },

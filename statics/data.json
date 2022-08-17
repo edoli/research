@@ -354,7 +354,8 @@
         },
         
         {
-            "thumbnail": "pub_thumb03.mp4",
+            "thumbnail": "pub_thumb03.jpg",
+            "thumbnailHover": "pub_thumb03_hover.mp4",
             "title": "Multisampling Compressive Video Spectroscopy",
             "authors": [
                 "Daniel S. Jeon",

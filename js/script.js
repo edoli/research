@@ -6,7 +6,12 @@ let getThumbnail = (thumbnail, isHover) => {
         className += " thumbnail-hover"
     }
     if (ext == 'mp4') {
-        return `<video class="${className}" loop muted playsinline onmouseover="this.play()" onmouseout="this.pause();" src="images/${thumbnail}"></video>`;
+        if (isHover) {
+            return `<video class="${className}" loop muted playsinline onmouseover="this.play()" onmouseout="this.pause();" src="images/${thumbnail}"></video>`;
+        } else {
+            let thumbnailImage = thumbnail.slice(0, -4) + '.jpg';
+            return `<video class="${className}" loop muted playsinline onmouseover="this.play()" onmouseout="this.pause();" src="images/${thumbnail}" poster="images/${thumbnailImage}"></video>`;
+        }
     } else {
         return `<img class="${className}" src="images/${thumbnail}" alt="">`;
     }

@@ -23,6 +23,7 @@ body {
 .img-thumbnail {
     padding: 0;
     border: None;
+    background: none;
     @media (max-width: $breakpoint-sm) {
         margin-bottom: 12px;
     }

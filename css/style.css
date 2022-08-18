@@ -18,6 +18,7 @@ body {
 .img-thumbnail {
   padding: 0;
   border: None;
+  background: none;
 }
 @media (max-width: 576px) {
   .img-thumbnail {

@@ -47,6 +47,8 @@ function publicationTag(thumbnail, thumbnailHover, title, authors, conference, m
                     if (isHttp) {
                         if (path.includes("github.com")) {
                             icon = '<i class="fa-brands fa-github"></i>';
+                        } else if (path.includes("youtube.com")) {
+                            icon = '<i class="fa-brands fa-youtube"></i>';
                         } else {
                             icon = '<i class="fas fa-link"></i>';
                         }
@@ -57,7 +59,7 @@ function publicationTag(thumbnail, thumbnailHover, title, authors, conference, m
                         if (ext == 'pdf') {
                             icon = '<i class="fas fa-file-pdf"></i>';
                         } else if (ext == 'zip') {
-                            icon = '<i class="fas fa-file-archive"></i>';
+                            icon = '<i class="fas fa-file-zipper"></i>';
                         } else if (ext == 'mp4' || ext == 'avi' || ext == 'mkv' || ext == 'mov') {
                             icon = '<i class="fas fa-file-video"></i>';
                         }  else if (ext == 'mp3' || ext == 'ogg' || ext == 'wav' || ext == 'mp4a') {

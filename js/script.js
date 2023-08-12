@@ -17,7 +17,7 @@ let getThumbnail = (thumbnail, isHover) => {
     }
 }
 
-function publicationTag(thumbnail, thumbnailHover, title, authors, conference, materials) {
+function publicationTag(thumbnail, thumbnailHover, title, authors, conference, highlight, materials) {
     return `
     <div class="d-flex flex-column flex-md-row pub-item">
         <div class="pub-thumbnail">
@@ -35,6 +35,7 @@ function publicationTag(thumbnail, thumbnailHover, title, authors, conference, m
                 }
             }).join(', ')}</div>
             <div class="pub-conference">${conference}</div>
+            ${highlight !== undefined ? `<div class="pub-highlight">${highlight}</div>` : ""}
             <div class="flex-fill"></div>
             <div>
                 ${materials.map((item) => {
@@ -87,8 +88,8 @@ $.getJSON('statics/data.json', (data) => {
     let publicationsElem = $('.publications');
 
     data.publications.forEach((publication) => {
-        let {thumbnail, thumbnailHover, title, authors, conference, materials} = publication;
-        let tag = publicationTag(thumbnail, thumbnailHover, title, authors, conference, materials);
+        let {thumbnail, thumbnailHover, title, authors, conference, highlight, materials} = publication;
+        let tag = publicationTag(thumbnail, thumbnailHover, title, authors, conference, highlight, materials);
         publicationsElem.append(tag);
     });
 });

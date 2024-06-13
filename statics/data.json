@@ -1,8 +1,8 @@
 {
     "publications": [
         {
-            "thumbnail": "",
-            "thumbnailHover": "",
+            "thumbnail": "pub_thumb21.jpg",
+            "thumbnailHover": "pub_thumb21_hover.jpg",
             "title": "Polarimetric iToF: Measuring High-Fidelity Depth through Scattering Media",
             "authors": [
                 "Daniel S. Jeon",

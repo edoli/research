@@ -3,8 +3,28 @@ $breakpoint-md: 768px;
 $breakpoint-lg: 992px;
 $breakpoint-xl: 1200px;
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     background-color: #fafafa;
+}
+
+.footer {
+    background-color: #efefef;
+    padding: 6px 12px;
+}
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    margin-bottom: -72px;
+    right: 20px;
+    display: block;
+    transition-property: margin-bottom;
+    transition-duration: 200ms;
+    border-radius: 50%;
 }
 
 .top-img {

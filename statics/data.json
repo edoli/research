@@ -1,6 +1,71 @@
 {
     "publications": [
         {
+            "thumbnail": "pub_thumb21.jpg",
+            "thumbnailHover": "pub_thumb21_hover.jpg",
+            "title": "Polarimetric iToF: Measuring High-Fidelity Depth through Scattering Media",
+            "authors": [
+                "Daniel S. Jeon",
+                "Andreas Meuleman",
+                "Seung-Hwan Baek",
+                "Min H. Kim"
+            ],
+            "conference": "Proc. IEEE/CVF Computer Vision and Pattern Recognition (CVPR 2023)",
+            "highlight": "selected as CVPR Highlights (10% of the accepted papers)",
+            "materials": [
+                {
+                    "name": "Paper",
+                    "path": "itof_paper_main.pdf"
+                },
+                {
+                    "name": "Supp.",
+                    "path": "itof_paper_supple.pdf"
+                }
+            ]
+        },
+        {
+            "thumbnail": "pub_thumb20.jpg",
+            "thumbnailHover": "",
+            "title": "Automated Visual Inspection of Defects in Transparent Display Layers using Light-Field 3D Imaging",
+            "authors": [
+                "Hyeonjoong Jang",
+                "Sanghoon Cho",
+                "Daniel S. Jeon",
+                "Dahyun Kang",
+                "Myeongho Song",
+                "Changhyun Park",
+                "Jaewon Kim",
+                "Min H. Kim"
+            ],
+            "conference": "IEEE Transactions on Semiconductor Manufacturing (TSM)",
+            "materials": [
+                {
+                    "name": "Link",
+                    "path": "https://ieeexplore.ieee.org/document/10138698"
+                }
+            ]
+        },
+        {
+            "thumbnail": "pub_thumb19.jpg",
+            "thumbnailHover": "",
+            "title": "Actively Tunable Spectral Filter for Compact Hyperspectral Camera using Angle-Sensitive Plasmonic Structures",
+            "authors": [
+                "Myeong-Su Ahn",
+                "Jaehun Jeon",
+                "Charles Soon Hong Hwang",
+                "Daniel S. Jeon",
+                "Min H. Kim", 
+                "Ki-Hun Jeong"
+            ],
+            "conference": "Advanced Materials Technologies",
+            "materials": [
+                {
+                    "name": "Link",
+                    "path": "https://onlinelibrary.wiley.com/doi/10.1002/admt.202201482"
+                }
+            ]
+        },
+        {
             "thumbnail": "pub_thumb18.jpg",
             "thumbnailHover": "pub_thumb18_hover.mp4",
             "title": "Sparse Ellipsometry: Portable Acquisition of Polarimetric SVBRDF and Shape with Unstructured Flash Photography",

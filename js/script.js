@@ -81,6 +81,23 @@ function publicationTag(thumbnail, thumbnailHover, title, authors, conference, m
     `;
 }
 
+function otherTag(thumbnail, thumbnailHover, title, link, content) {
+    return `
+    <div class="d-flex flex-column flex-md-row pub-item">
+        <div class="pub-thumbnail">
+            ${thumbnailHover !== undefined ? getThumbnail(thumbnailHover, true) : ""}
+            ${getThumbnail(thumbnail, false)}
+        </div>
+        
+        <div class="flex-fill d-flex flex-column pub-content">
+            <div class="pub-title"><a href="${link}">${title}</a></div>
+            <div class="pub-conference">${content}</div>
+        </div>
+    </div>
+    `;
+}
+
+
 $.getJSON('statics/data.json', (data) => {
     let publicationsElem = $('.publications');
 
@@ -90,3 +107,15 @@ $.getJSON('statics/data.json', (data) => {
         publicationsElem.append(tag);
     });
 });
+
+$.getJSON('statics/tool_data.json', (data) => {
+    let toolsElem = $('.tools');
+
+    data.tools.forEach((tool) => {
+        let {thumbnail, thumbnailHover, title, link, content} = tool;
+        let tag = otherTag(thumbnail, thumbnailHover, title, link, content);
+        toolsElem.append(tag);
+    });
+});
+
+

@@ -1,0 +1,17 @@
+{
+    "tools": [
+        {
+            "thumbnail": "edolview_thumb.png",
+            "thumbnailHover": "edolview_thumb_hover.png",
+            "title": "EdolView - Image Viewer for Visualization and Analysis",
+            "link": "https://github.com/edoli/edolview",
+            "content": "Image viewer for graphics and vision researchers.<br><b>Pixel value analysis</b>: easy to check each pixel value or mean of pixles in area.<br><b>Colormap visualization</b>: colormapping for better visualization<br><b>Flexible visualization configuraion</b>: single channel visualization for multi-channel images, user setting for min max normalization, custom shader."
+        },
+        {
+            "thumbnail": "edoliaddin_thumb.png",
+            "title": "EdoliAddIn - PowerPoint Addin for aligning shapes",
+            "link": "https://github.com/edoli/EdoliAddin",
+            "content": ""
+        }
+    ]
+}

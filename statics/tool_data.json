@@ -1,11 +1,11 @@
 {
     "tools": [
         {
-            "thumbnail": "edolview_thumb.png",
-            "thumbnailHover": "edolview_thumb_hover.png",
+            "thumbnail": "edolview_thumb.jpg",
+            "thumbnailHover": "edolview_thumb_hover.jpg",
             "title": "EdolView - Image Viewer for Visualization and Analysis",
-            "link": "https://github.com/edoli/edolview",
-            "content": "Image viewer for graphics and vision researchers.<br><b>Pixel value analysis</b>: easy to check each pixel value or mean of pixles in area.<br><b>Colormap visualization</b>: colormapping for better visualization<br><b>Flexible visualization configuraion</b>: single channel visualization for multi-channel images, user setting for min max normalization, custom shader."
+            "link": "https://github.com/edoli/edolview-rs",
+            "content": "Image viewer for graphics and vision researchers.<br><b>Pixel value analysis</b>: easy to check each pixel value or mean of pixles in area.<br><b>Colormap visualization</b>: colormapping for better visualization<br><b>Flexible visualization configuraion</b>: single channel visualization for multi-channel images, user setting for min max normalization."
         },
         {
             "thumbnail": "edoliaddin_thumb.png",
